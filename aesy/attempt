@@ -1,0 +1,3 @@
+let fruits = ["banana", "apple", "orange", "mango"];
+let split= fruits.map(fruits => fruits.split("a")
+console.log(split)
