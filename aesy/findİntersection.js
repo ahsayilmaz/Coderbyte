@@ -1,7 +1,6 @@
 export const intersection = (str) =>{
-    for (let i=0; i<str.length; i++){
-        str.replace(str[i], str[i].parseInt())
-    }
-    const intered = str.sort((a, b) =>{return b-a})
+    let listint = str.map(str => str.split(", "))
+    let flt = [].concat(...listint)
+    const intered = flt.sort((a, b) =>{return b-a})
     return intered
 }
