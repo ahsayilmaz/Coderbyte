@@ -1,3 +1,4 @@
-export const longestWord = (word) =>{
-  if (
+export const longestWord = (input) =>{
+  if (input <5){
+  return false}
 ]
