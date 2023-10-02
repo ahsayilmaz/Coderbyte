@@ -1,0 +1,11 @@
+export const ltrchanger = (str) =>{
+    const alphabeth= Array.from({length: 26}, (_, index) => String.fromCharCode(95+index))
+    str.split("")
+    str.forEach(element => {
+        if(typeof element === 'string'){
+            alphabeth.forEach(item => {
+                
+            })
+        }
+    });
+}
