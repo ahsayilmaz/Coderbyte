@@ -15,3 +15,5 @@ import { ltrchanger } from "./aesy/letterChange.js";
 //console.log(ltrchanger("Ahmet Şahin"))
 import { adding } from "./aesy/simpleAdding.js";
 console.log(adding(-22))
+import { Cap } from "./aesy/letterCapitalize.js";
+console.log(Cap("merhaba, ben ahmet. ben yirmi iki yaşımdayım."))
