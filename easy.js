@@ -17,3 +17,5 @@ import { adding } from "./aesy/simpleAdding.js";
 console.log(adding(-22))
 import { Cap } from "./aesy/letterCapitalize.js";
 console.log(Cap("merhaba, ben ahmet. ben yirmi iki yaşımdayım."))
+import { Symbols } from "./aesy/simpleSymbols.js";
+console.log(Symbols("ehruej+e4+++TfsTR++r4+y"))
