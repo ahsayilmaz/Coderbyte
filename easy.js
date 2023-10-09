@@ -1,8 +1,7 @@
 import { longestWord } from "./aesy/longestWord.js";
 //console.log(longestWord("fun!!& time"))
-
 import { factorial } from "./aesy/factorial.js";
-//__console.log(factorial(8.256))
+//console.log(factorial(8.256))
 import { reverse } from "./aesy/reversingString.js";
 //console.log(reverse("ahmet"))
 import { intersection } from "./aesy/findİntersection.js";
@@ -14,8 +13,10 @@ import { question } from "./aesy/questionmark.js";
 import { ltrchanger } from "./aesy/letterChange.js";
 //console.log(ltrchanger("Ahmet Şahin"))
 import { adding } from "./aesy/simpleAdding.js";
-console.log(adding(-22))
+//console.log(adding(-22))
 import { Cap } from "./aesy/letterCapitalize.js";
-console.log(Cap("merhaba, ben ahmet. ben yirmi iki yaşımdayım."))
+//console.log(Cap("merhaba, ben ahmet. ben yirmi iki yaşımdayım."))
 import { Symbols } from "./aesy/simpleSymbols.js";
-console.log(Symbols("ehruej+e4+++TfsTR++r4+y"))
+//console.log(Symbols("ehruej+e4+++TfsTR++r4+y"))
+import { timeConvert } from "./aesy/timeConvert.js";
+console.log(timeConvert(345670))
