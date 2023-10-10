@@ -19,4 +19,8 @@ import { Cap } from "./aesy/letterCapitalize.js";
 import { Symbols } from "./aesy/simpleSymbols.js";
 //console.log(Symbols("ehruej+e4+++TfsTR++r4+y"))
 import { timeConvert } from "./aesy/timeConvert.js";
-console.log(timeConvert(345670))
+//console.log(timeConvert(345670))
+import { soup } from "./aesy/alphabethSoup.js";
+console.log(soup("asksjpıiahcoihağnşiöpis"))
+import { shortSoup } from "./aesy/shortAlphabethSoup.js";
+console.log(shortSoup("asksjpıieıuhdchanüğşpöpis"))
