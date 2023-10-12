@@ -30,5 +30,3 @@ import { exOh } from "./aesy/exOh.js";
 //console.log(exOh("oxoxoxoxxoxoxxoo"))
 import { wordCount } from "./aesy/WordCount.js";
 console.log(wordCount(" ahmet    şahin yılmaz    bey   "))
-import { word } from "./aesy/word.js";
-console.log(word(" ahmet    şahin yılmaz    bey   "))
