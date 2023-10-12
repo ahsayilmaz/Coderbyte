@@ -24,3 +24,11 @@ import { soup } from "./aesy/alphabethSoup.js";
 console.log(soup("asksjpıiahcoihağnşiöpis"))
 import { shortSoup } from "./aesy/shortAlphabethSoup.js";
 console.log(shortSoup("asksjpıieıuhdchanüğşpöpis"))
+import { Check } from "./aesy/abCheck.js";
+//console.log(Check("oısjgdnoajjdblfeoabnsbabaab"))
+import { exOh } from "./aesy/exOh.js";
+//console.log(exOh("oxoxoxoxxoxoxxoo"))
+import { wordCount } from "./aesy/WordCount.js";
+console.log(wordCount(" ahmet    şahin yılmaz    bey   "))
+import { word } from "./aesy/word.js";
+console.log(word(" ahmet    şahin yılmaz    bey   "))
