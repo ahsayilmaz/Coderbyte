@@ -31,6 +31,10 @@ import { exOh } from "./aesy/exOh.js";
 import { wordCount } from "./aesy/WordCount.js";
 //console.log(wordCount(" ahmet    şahin yılmaz    bey   "))
 import { vowel } from "./aesy/vowelCount.js";
-console.log(vowel("ah! çaylar gitti"))
+//console.log(vowel("ah! çaylar gitti"))
 import { isPalindrom } from "./aesy/isPalindrom.js";
-console.log(isPalindrom("racecar"))
+//console.log(isPalindrom("racecar"))
+import { ArithGeo } from "./aesy/ArithGeo.js";
+//console.log(ArithGeo([2,4,8,16,32]))
+import { AAddition } from "./aesy/arrayAddition.js";
+console.log(AAddition([32,16,8,4,2,1]))
