@@ -37,4 +37,6 @@ import { isPalindrom } from "./aesy/isPalindrom.js";
 import { ArithGeo } from "./aesy/ArithGeo.js";
 //console.log(ArithGeo([2,4,8,16,32]))
 import { AAddition } from "./aesy/arrayAddition.js";
-console.log(AAddition([32,16,8,4,2,1]))
+//console.log(AAddition([32,16,8,4,2,1]))
+import { letterCount } from "./aesy/lettercount.js";
+console.log(letterCount("hey, thats my everese mouse"));
