@@ -1,0 +1,5 @@
+export const secondGL = (listOfNums) =>{
+    const endArray = listOfNums.filter((num, index, array) => array.indexOf(num) === index);
+    endArray.sort((x,y) => {return x-y})
+    return endArray[1] + " " + endArray [endArray.length - 2]
+}
