@@ -39,4 +39,6 @@ import { ArithGeo } from "./aesy/ArithGeo.js";
 import { AAddition } from "./aesy/arrayAddition.js";
 //console.log(AAddition([32,16,8,4,2,1]))
 import { letterCount } from "./aesy/lettercount.js";
-console.log(letterCount("hey, thats my everese mouse"));
+//console.log(letterCount("hey, thats my everese mouse"));
+import { secondGL } from "./aesy/secondGreatLow.js";
+console.log(secondGL([1,2,3,4,5,6,6,6,5,3,21,3,5,43,43,0,43]));
