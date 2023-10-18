@@ -41,4 +41,8 @@ import { AAddition } from "./aesy/arrayAddition.js";
 import { letterCount } from "./aesy/lettercount.js";
 //console.log(letterCount("hey, thats my everese mouse"));
 import { secondGL } from "./aesy/secondGreatLow.js";
-console.log(secondGL([1,2,3,4,5,6,6,6,5,3,21,3,5,43,43,0,43]));
+//console.log(secondGL([1,2,3,4,5,6,6,6,5,3,21,3,5,43,43,0,43]));
+import { divisionStringified } from "./aesy/DivisionStringified.js";
+//console.log(divisionStringified(123456789345, 100000));
+import { minutesCount } from "./aesy/minutesCount.js";
+console.log(minutesCount("9:00am-10:00am"))
