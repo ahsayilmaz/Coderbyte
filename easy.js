@@ -45,4 +45,6 @@ import { secondGL } from "./aesy/secondGreatLow.js";
 import { divisionStringified } from "./aesy/DivisionStringified.js";
 //console.log(divisionStringified(123456789345, 100000));
 import { minutesCount } from "./aesy/minutesCount.js";
-console.log(minutesCount("9:00am-10:00am"))
+//console.log(minutesCount("9:00am-10:00am"))
+import { meanMode } from "./aesy/meanMode.js";
+console.log(meanMode([5,3,3,3,1]));
