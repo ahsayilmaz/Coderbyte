@@ -50,3 +50,5 @@ import { minutesCount } from "./aesy/minutesCount.js";
 //console.log(minutesCount("9:00am-10:00am"))
 import { meanMode } from "./aesy/meanMode.js";
 console.log(meanMode([5,3,3,3,1]));
+import { swapCase } from "./aesy/swapCase.js";
+console.log(swapCase("Ahmet Sahin Yilmaz"));
