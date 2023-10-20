@@ -49,6 +49,8 @@ import { divisionStringified } from "./aesy/DivisionStringified.js";
 import { minutesCount } from "./aesy/minutesCount.js";
 //console.log(minutesCount("9:00am-10:00am"))
 import { meanMode } from "./aesy/meanMode.js";
-console.log(meanMode([5,3,3,3,1]));
+//console.log(meanMode([5,3,3,3,1]));
 import { swapCase } from "./aesy/swapCase.js";
-console.log(swapCase("Ahmet Sahin Yilmaz"));
+//console.log(swapCase("Ahmet Sahin Yilmaz"));
+import { numAdd } from "./aesy/numberAddition.js";
+console.log(numAdd("heaay12887hhdbs2   b2hh21jbb3 1 h2hh1h  "));
