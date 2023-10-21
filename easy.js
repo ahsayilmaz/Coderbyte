@@ -53,4 +53,10 @@ import { meanMode } from "./aesy/meanMode.js";
 import { swapCase } from "./aesy/swapCase.js";
 //console.log(swapCase("Ahmet Sahin Yilmaz"));
 import { numAdd } from "./aesy/numberAddition.js";
-console.log(numAdd("heaay12887hhdbs2   b2hh21jbb3 1 h2hh1h  "));
+//console.log(numAdd("heaay12887hhdbs2   b2hh21jbb3 1 h2hh1h  "));
+import { thirdG } from "./aesy/thirdGreatest.js";
+//console.log(thirdG(["ajack", "mac", "app"]));
+import { poweroftwo } from "./aesy/poweroftwo.js";
+//console.log(poweroftwo())
+import { additivePersistence } from "./aesy/additivepersistence.js";
+console.log(additivePersistence(21784))
