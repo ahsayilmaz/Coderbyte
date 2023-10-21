@@ -57,6 +57,6 @@ import { numAdd } from "./aesy/numberAddition.js";
 import { thirdG } from "./aesy/thirdGreatest.js";
 //console.log(thirdG(["ajack", "mac", "app"]));
 import { poweroftwo } from "./aesy/poweroftwo.js";
-//console.log(poweroftwo())
+//console.log(poweroftwo(16))
 import { additivePersistence } from "./aesy/additivepersistence.js";
 console.log(additivePersistence(21784))
