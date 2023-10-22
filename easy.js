@@ -59,4 +59,8 @@ import { thirdG } from "./aesy/thirdGreatest.js";
 import { poweroftwo } from "./aesy/poweroftwo.js";
 //console.log(poweroftwo(16))
 import { additivePersistence } from "./aesy/additivepersistence.js";
-console.log(additivePersistence(21784))
+//console.log(additivePersistence(21784))
+import { multicativePersistance } from "./aesy/MultiplicativePersistance.js";
+//console.log(multicativePersistance(789));
+import { offlineMinimum } from "./aesy/offlineMinimum.js";
+console.log(offlineMinimum(["E","2","1","E","4","6","7","E","3","E","E"]))
