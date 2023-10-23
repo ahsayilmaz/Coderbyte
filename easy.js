@@ -63,4 +63,6 @@ import { additivePersistence } from "./aesy/additivepersistence.js";
 import { multicativePersistance } from "./aesy/MultiplicativePersistance.js";
 //console.log(multicativePersistance(789));
 import { offlineMinimum } from "./aesy/offlineMinimum.js";
-console.log(offlineMinimum(["E","2","1","E","4","6","7","E","3","E","E"]))
+//console.log(offlineMinimum(["E","2","1","E","4","6","7","E","3","E","E"]))
+import { changingSequence } from "./aesy/changingSequence.js";
+console.log(changingSequence([1,2,4,6,4,3,1]))
