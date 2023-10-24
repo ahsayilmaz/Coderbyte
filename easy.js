@@ -69,4 +69,6 @@ import { changingSequence } from "./aesy/changingSequence.js";
 import { overLapping } from "./aesy/overLappingRanges.js";
 //console.log(overLapping([4,10,2,6,3]));
 import { superIncreasing } from "./aesy/superIncreasing.js";
-console.log(superIncreasing([1,3,6,13,54]))
+//console.log(superIncreasing([1,3,6,13,54]))
+import { hammingDistance } from "./aesy/hammingDistance.js";
+console.log(hammingDistance("kathrin", "kerstin"))
