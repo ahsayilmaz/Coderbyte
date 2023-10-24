@@ -71,4 +71,6 @@ import { overLapping } from "./aesy/overLappingRanges.js";
 import { superIncreasing } from "./aesy/superIncreasing.js";
 //console.log(superIncreasing([1,3,6,13,54]))
 import { hammingDistance } from "./aesy/hammingDistance.js";
-console.log(hammingDistance("kathrin", "kerstin"))
+//console.log(hammingDistance("kathrin", "kerstin"))
+import { bitWise } from "./aesy/bitWise.js";
+console.log(bitWise(["1100", "1010"]));
