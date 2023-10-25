@@ -79,4 +79,6 @@ import { bitWise } from "./aesy/bitWise.js";
 import { waveSorting } from "./aesy/waveSorting.js";
 //console.log(waveSorting([1,3,2,6,4,5,23,7,8,10,11,12]))
 import { arrayMatching } from "./aesy/arrayMatching.js";
-console.log(arrayMatching(["[1,2,5,6]","[5,2,8,11]"]))
+//console.log(arrayMatching(["[1,2,5,6]","[5,2,8,11]"]))
+import { binaryReverse } from "./aesy/binaryReverse.js";
+console.log(binaryReverse("47"))
