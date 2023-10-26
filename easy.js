@@ -83,4 +83,6 @@ import { arrayMatching } from "./aesy/arrayMatching.js";
 import { binaryReverse } from "./aesy/binaryReverse.js";
 //console.log(binaryReverse("47"))
 import { largestPair } from "./aesy/largestPair.js";
-console.log(largestPair(4251431287))
+//console.log(largestPair(4251431287))
+import { firstNonRepeatingCharacter } from "./aesy/firstNonRepeatingCharacter.js";
+console.log(firstNonRepeatingCharacter("sTttTress"))
