@@ -85,4 +85,6 @@ import { binaryReverse } from "./aesy/binaryReverse.js";
 import { largestPair } from "./aesy/largestPair.js";
 //console.log(largestPair(4251431287))
 import { firstNonRepeatingCharacter } from "./aesy/firstNonRepeatingCharacter.js";
-console.log(firstNonRepeatingCharacter("sTttTress"))
+//console.log(firstNonRepeatingCharacter("sTttTress"))
+import { twoSums } from "./aesy/twoSums.js";
+console.log(twoSums([0,1,2,4,5,3,12,35], 8))
