@@ -81,4 +81,6 @@ import { waveSorting } from "./aesy/waveSorting.js";
 import { arrayMatching } from "./aesy/arrayMatching.js";
 //console.log(arrayMatching(["[1,2,5,6]","[5,2,8,11]"]))
 import { binaryReverse } from "./aesy/binaryReverse.js";
-console.log(binaryReverse("47"))
+//console.log(binaryReverse("47"))
+import { largestPair } from "./aesy/largestPair.js";
+console.log(largestPair(4251431287))
