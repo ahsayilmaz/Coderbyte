@@ -6,7 +6,6 @@ export const firstNonRepeatingCharacter =(str)=>{
         let letterToUpdate = letters.find(letters => letters.letter === str[i]);
         if (letterToUpdate||letterToUpdate1){
             letterToUpdate.repetition+=1
-            console.log("a")
         }else{
             letters.push({letter:str[i],repetition:1})
         }
