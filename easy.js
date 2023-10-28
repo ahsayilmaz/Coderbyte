@@ -3,7 +3,7 @@ import { userValidation } from "./aesy/userValidation.js";
 import { longestWord } from "./aesy/longestWord.js";
 //console.log(longestWord("fun!!& time"))
 import { factorial } from "./aesy/factorial.js";
-//console.log(factorial(8.256))
+//console.log(factorial(8))
 import { reverse } from "./aesy/reversingString.js";
 //console.log(reverse("ahmet"))
 import { intersection } from "./aesy/findİntersection.js";
