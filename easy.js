@@ -89,4 +89,6 @@ import { firstNonRepeatingCharacter } from "./aesy/firstNonRepeatingCharacter.js
 import { twoSums } from "./aesy/twoSums.js";
 //console.log(twoSums([0,1,2,4,5,3,12,35], 8))
 import { powerSet } from "./aesy/powerSet1.js";
-console.log(powerSet([1,2,3,4,5]))
+//console.log(powerSet([1,2,3,4,5]))
+import { productDigits } from "./aesy/productDigits.js";
+console.log(productDigits(23782320112))
