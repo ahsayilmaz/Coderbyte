@@ -91,4 +91,4 @@ import { twoSums } from "./aesy/twoSums.js";
 import { powerSet } from "./aesy/powerSet1.js";
 //console.log(powerSet([1,2,3,4,5]))
 import { productDigits } from "./aesy/productDigits.js";
-console.log(productDigits(23782320112))
+console.log(productDigits(1023423411457))
