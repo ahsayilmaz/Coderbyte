@@ -91,4 +91,6 @@ import { twoSums } from "./aesy/twoSums.js";
 import { powerSet } from "./aesy/powerSet1.js";
 //console.log(powerSet([1,2,3,4,5]))
 import { productDigits } from "./aesy/productDigits.js";
-console.log(productDigits(1023423411457))
+//console.log(productDigits(1023423411457))
+import { Palindromcreator } from "./aesy/Palindromcreator.js";
+console.log(Palindromcreator("abjchba"))
