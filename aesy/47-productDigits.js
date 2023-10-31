@@ -14,7 +14,7 @@ export const productDigits =(num)=>{
         }
     }
     let a = 0
-    while (temp>numl) {
+    while (true) {
         for (let i = 1; i+(9*((10**a)+1)) <= 9+(90*(10**a)); i++) {
             let digitslength=(num/i).toString().length+i.toString().length
             if(num%i==0&&digitslength<temp) {
@@ -23,6 +23,7 @@ export const productDigits =(num)=>{
                 temp=digitslength
             }
         }
+        if(a>3){break}
         a++
     }
     return temp
