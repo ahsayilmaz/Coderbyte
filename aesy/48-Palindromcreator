@@ -14,16 +14,5 @@ export const Palindromcreator=(str)=>{
           indices.push(i);
         }
     }
-    for (let i = 0; i < 2; i++) {
-        str.splice(indices[i]-i, 1)
-    }
-    let areLetttersEqual = 0
-    for(let i =0;i<parseInt(str.length/2);i++){
-        if(str[i]===str[str.length-1 - i]){areLetttersEqual++}
-    }
-    if(areLetttersEqual===parseInt(str.length/2)){
-        return str
-    }else{
-        return "not possible"
-    }
+    
 }
