@@ -93,4 +93,6 @@ import { powerSet } from "./aesy/powerSet1.js";
 import { productDigits } from "./aesy/productDigits.js";
 //console.log(productDigits(1023423411457))
 import { Palindromcreator } from "./aesy/Palindromcreator.js";
-console.log(Palindromcreator("abjchba"))
+//console.log(Palindromcreator("abjchba"))
+import { decimalToRoman } from "./aesy/decimalToRoman.js";
+console.log(decimalToRoman(3999))
