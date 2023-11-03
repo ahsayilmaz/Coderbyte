@@ -15,9 +15,16 @@ export const decimalToRoman =(num)=>{
                 string+=Rnum1.roman
             }
         }
-        if(decimals[i].number==(5-1)||decimals[i].number==(10-1)){
+        else if(decimals[i].number==(5-1)||decimals[i].number==(10-1)){
             let Rnum2 = Roman.find(Roman => Roman.digit === (decimals[i].digit*10))
             string+=Rnum1.roman+Rnum2.roman
+        }
+        else if(decimals[i].number>4&&decimals[i].number<9){
+            let Rnum3 = Roman.find(Roman => Roman.digit === decimals[i].digit*5)
+            string+=Rnum3.roman
+            for (let index = 0; index < decimals[i].number-5; index++) {
+                string+=Rnum1.roman
+            }
         }
     }
     return string
