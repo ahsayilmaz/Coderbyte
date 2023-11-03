@@ -1,7 +1,7 @@
-//import { isPalindrom } from "./aesy/isPalindrom.js"
 export const Palindromcreator=(str)=>{
     let resultArray = new Array(str.length).fill('0')
     str=str.split("")
+    let strl=str.length
     for(let index =0;index<str.length/2;index++){
         for(let i =index+1;i<str.length;i++){
             if(str[index]===str[i]&&resultArray[i]==0){resultArray[i]++}
@@ -11,11 +11,11 @@ export const Palindromcreator=(str)=>{
     let indices=[]
     for (let i = 0; i < resultArray.length; i++) {
         if (resultArray[i] === '0') {
-          indices.push(i);
+            indices.push(i);
         }
     }
     let areLetttersEqual = 0
-    if(indices.length<2){
+    if(indices.length<2&&indices.length!=0){
         str.splice(indices[0], indices.length)
         return str
     }else {
