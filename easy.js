@@ -95,4 +95,6 @@ import { productDigits } from "./aesy/productDigits.js";
 import { Palindromcreator } from "./aesy/Palindromcreator.js";
 //console.log(Palindromcreator("abjchba"))
 import { decimalToRoman } from "./aesy/decimalToRoman.js";
-console.log(decimalToRoman(3999))
+//console.log(decimalToRoman(3999))
+import { TwoSum2 } from "./aesy/TwoSum2.js";
+console.log(TwoSum2([1,2,3,4,6,7,8], 14))
