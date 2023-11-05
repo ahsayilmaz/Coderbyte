@@ -97,4 +97,6 @@ import { Palindromcreator } from "./aesy/Palindromcreator.js";
 import { decimalToRoman } from "./aesy/decimalToRoman.js";
 //console.log(decimalToRoman(3999))
 import { TwoSum2 } from "./aesy/TwoSum2.js";
-console.log(TwoSum2([1,2,3,4,6,7,8], 14))
+//console.log(TwoSum2([1,2,3,4,6,7,8], 14))
+import { ThreeSum } from "./aesy/ThreeSum.js";
+console.log(ThreeSum([8,2,1,4,10,5,-1,-1],8))
