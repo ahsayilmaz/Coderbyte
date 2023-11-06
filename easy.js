@@ -99,4 +99,6 @@ import { decimalToRoman } from "./aesy/decimalToRoman.js";
 import { TwoSum2 } from "./aesy/TwoSum2.js";
 //console.log(TwoSum2([1,2,3,4,6,7,8], 14))
 import { ThreeSum } from "./aesy/ThreeSum.js";
-console.log(ThreeSum([8,2,1,4,10,5,-1,-1],8))
+//console.log(ThreeSum([8,2,1,4,10,5,-1,-1],8))
+import { ScaleBalancing } from "./aesy/ScaleBalancing.js";
+console.log(ScaleBalancing([5,9],[1,2,7,6]))
