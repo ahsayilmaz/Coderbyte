@@ -101,4 +101,4 @@ import { TwoSum2 } from "./aesy/TwoSum2.js";
 import { ThreeSum } from "./aesy/ThreeSum.js";
 //console.log(ThreeSum([8,2,1,4,10,5,-1,-1],8))
 import { ScaleBalancing } from "./aesy/ScaleBalancing.js";
-console.log(ScaleBalancing([5,9],[1,2,7,6]))
+console.log(ScaleBalancing([9,4],[1,2,7,6]))
