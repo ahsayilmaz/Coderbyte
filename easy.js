@@ -103,4 +103,6 @@ import { ThreeSum } from "./aesy/ThreeSum.js";
 import { ScaleBalancing } from "./aesy/ScaleBalancing.js";
 //console.log(ScaleBalancing([9,4],[1,2,7,6]))
 import { timeDiffecence } from "./aesy/timeDiffecence.js";
-console.log(timeDiffecence("14:50","16:45"))
+//console.log(timeDiffecence("14:50","16:45"))
+import { pascalTriangle } from "./aesy/pascalTriangle.js";
+console.log(pascalTriangle(5))
