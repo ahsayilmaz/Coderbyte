@@ -105,4 +105,6 @@ import { ScaleBalancing } from "./aesy/ScaleBalancing.js";
 import { timeDiffecence } from "./aesy/timeDiffecence.js";
 //console.log(timeDiffecence("14:50","16:45"))
 import { pascalTriangle } from "./aesy/pascalTriangle.js";
-console.log(pascalTriangle(5))
+//console.log(pascalTriangle(5))
+import { vowelSquare } from "./aesy/vowelSquare.js";
+console.log(vowelSquare(["abcd","eikr","oufj"]));
