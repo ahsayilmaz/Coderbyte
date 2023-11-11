@@ -107,4 +107,6 @@ import { timeDiffecence } from "./aesy/timeDiffecence.js";
 import { pascalTriangle } from "./aesy/pascalTriangle.js";
 //console.log(pascalTriangle(5))
 import { vowelSquare } from "./aesy/vowelSquare.js";
-console.log(vowelSquare(["abcd","eikr","oufj"]));
+//console.log(vowelSquare(["abcd","eikr","oufj"]));
+import { closestEnemy } from "./aesy/closestEnemy.js";
+console.log(closestEnemy([0,0,1,0,0,2,0,2]));
