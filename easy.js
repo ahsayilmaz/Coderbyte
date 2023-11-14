@@ -113,4 +113,6 @@ import { closestEnemy } from "./aesy/closestEnemy.js";
 import { closestEnemy2 } from "./aesy/closestEnemy2.js";
 //console.log(closestEnemy2(["2020","1000","0002","0002"]));
 import { numberStream } from "./aesy/numberStream.js";
-console.log(numberStream("6532299999999244443335"));
+//console.log(numberStream("6532299999999244443335"));
+import { largestFour } from "./aesy/largestFour.js";
+console.log(largestFour([[4,5,1,3],[13,27,18,26],[32,35,37,39],[1000,1001,857,1]]));
