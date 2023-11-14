@@ -115,4 +115,6 @@ import { closestEnemy2 } from "./aesy/closestEnemy2.js";
 import { numberStream } from "./aesy/numberStream.js";
 //console.log(numberStream("6532299999999244443335"));
 import { largestFour } from "./aesy/largestFour.js";
-console.log(largestFour([[4,5,1,3],[13,27,18,26],[32,35,37,39],[1000,1001,857,1]]));
+//console.log(largestFour([[4,5,1,3],[13,27,18,26],[32,35,37,39],[1000,1001,857,1]]));
+import { largestFourSum } from "./aesy/largestFourSum.js";
+console.log(largestFourSum([4,5,-2,3,1,2,6,6]))
