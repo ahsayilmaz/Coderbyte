@@ -111,4 +111,4 @@ import { vowelSquare } from "./aesy/vowelSquare.js";
 import { closestEnemy } from "./aesy/closestEnemy.js";
 //console.log(closestEnemy([0,0,1,0,0,2,0,2]));
 import { closestEnemy2 } from "./aesy/closestEnemy2.js";
-console.log(closestEnemy2(["0000","1000","0002","0002"]));
+console.log(closestEnemy2(["2020","1000","0002","0002"]));
