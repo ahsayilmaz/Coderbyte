@@ -123,4 +123,6 @@ import { camelCase } from "./aesy/camelCase.js";
 import { snakeCase } from "./aesy/snakeCase.js";
 //console.log(snakeCase("BOB loves-coding"))
 import { sumMultipliers } from "./aesy/sumMultipliers.js";
-console.log(sumMultipliers([2,5,6,-6,16,2,3,6,5,3]));
+//console.log(sumMultipliers([2,5,6,-6,16,2,3,6,5,3]));
+import { stringMerger } from "./aesy/stringMerger.js";
+console.log(stringMerger("abc1*kyoo"))
