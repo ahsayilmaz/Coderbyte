@@ -117,4 +117,10 @@ import { numberStream } from "./aesy/numberStream.js";
 import { largestFour } from "./aesy/largestFour.js";
 //console.log(largestFour([[4,5,1,3],[13,27,18,26],[32,35,37,39],[1000,1001,857,1]]));
 import { largestFourSum } from "./aesy/largestFourSum.js";
-console.log(largestFourSum([4,5,-2,3,1,2,6,6]))
+//console.log(largestFourSum([4,5,-2,3,1,2,6,6]))
+import { camelCase } from "./aesy/camelCase.js";
+//console.log(camelCase("i got intern at google"));
+import { snakeCase } from "./aesy/snakeCase.js";
+//console.log(snakeCase("BOB loves-coding"))
+import { sumMultipliers } from "./aesy/sumMultipliers.js";
+console.log(sumMultipliers([2,5,6,-6,16,2,3,6,5,3]));
