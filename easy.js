@@ -125,4 +125,6 @@ import { snakeCase } from "./aesy/snakeCase.js";
 import { sumMultipliers } from "./aesy/sumMultipliers.js";
 //console.log(sumMultipliers([2,5,6,-6,16,2,3,6,5,3]));
 import { stringMerger } from "./aesy/stringMerger.js";
-console.log(stringMerger("abc1*kyoo"))
+//console.log(stringMerger("abc1*kyoo"))
+import { oneDecrement } from "./aesy/oneDecrement.js";
+console.log(oneDecrement(56554984));
