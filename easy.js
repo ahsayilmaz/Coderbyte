@@ -127,4 +127,6 @@ import { sumMultipliers } from "./aesy/sumMultipliers.js";
 import { stringMerger } from "./aesy/stringMerger.js";
 //console.log(stringMerger("abc1*kyoo"))
 import { oneDecrement } from "./aesy/oneDecrement.js";
-console.log(oneDecrement(56554984));
+//console.log(oneDecrement(56554984));
+import { elementMerger } from "./aesy/elementMerger.js";
+console.log(elementMerger([4,5,1,2,3,1,2,7]));
