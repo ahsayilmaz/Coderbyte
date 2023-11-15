@@ -129,4 +129,6 @@ import { stringMerger } from "./aesy/stringMerger.js";
 import { oneDecrement } from "./aesy/oneDecrement.js";
 //console.log(oneDecrement(56554984));
 import { elementMerger } from "./aesy/elementMerger.js";
-console.log(elementMerger([4,5,1,2,3,1,2,7]));
+//console.log(elementMerger([4,5,1,2,3,1,2,7]));
+import { ASCIIconversion } from "./aesy/ASCIIconversion.js";
+console.log(ASCIIconversion("dog"));
