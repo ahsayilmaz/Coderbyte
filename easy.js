@@ -133,4 +133,6 @@ import { elementMerger } from "./aesy/elementMerger.js";
 import { ASCIIconversion } from "./aesy/ASCIIconversion.js";
 //console.log(ASCIIconversion("dog"));
 import { GFC } from "./aesy/GCF.js";
-console.log(GFC([45,18]));
+//console.log(GFC([45,18]));
+import { serialNumber } from "./aesy/serialNumber.js";
+console.log(serialNumber("224.315.218"));
