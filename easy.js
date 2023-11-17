@@ -135,4 +135,6 @@ import { ASCIIconversion } from "./aesy/ASCIIconversion.js";
 import { GFC } from "./aesy/GCF.js";
 //console.log(GFC([45,18]));
 import { serialNumber } from "./aesy/serialNumber.js";
-console.log(serialNumber("224.315.218"));
+//console.log(serialNumber("224.315.218"));
+import { stringPeriod } from "./aesy/stringPeriod.js";
+console.log(stringPeriod("abcababcababcab"));
