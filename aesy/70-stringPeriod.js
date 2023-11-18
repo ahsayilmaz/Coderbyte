@@ -1,34 +1,35 @@
 export const stringPeriod=(str)=>{
     var repeater=Math.floor(str.length/2 )
-    let howManyEqual=1
-    let k=0
-    let isEqual=0
+    let howManyEqual=0
+    let k
+    let isEqual=1
     let tester
-    let repeatingsList=[]
     while (repeater>=2) {
-        for (let i = 0; i < Math.floor(str.length/repeater); i++) {
+        for (let i = 0; i < str.length; i+=repeater) {
             tester = ""
-            for (let index = 0; index < repeater; index++) {
+            for (let index = i; index < repeater+i && repeater+i<str.length; index++) {
                 tester += str[index]
             }
-            for (let j = repeater+1; j < str.length; j++) {
-                if(tester[k]==str[j]){
+            if(tester.length<repeater){break}
+            k=0
+            for (let j = repeater+i; j < str.length; j++) {
+                if(tester[k]==str[j]&&j%repeater==k){
                     howManyEqual++
                 }else{
-                    if(isEqual>=2&&isEqual<4){
-                        repeatingsList.push(tester)
+                    if(isEqual>=2){
+                        return tester
                     }
                     k=0
                     howManyEqual=0
                 }
+                if(isEqual>=2){
+                    return tester
+                }
                 if(howManyEqual==repeater) {isEqual++}
                 k++
-                if(k==Math.floor(str.length/repeater)){k=0}
+                if(k==repeater|| j==str.length-2){k=0}
             }
-            
         }
         repeater--
     }
-    repeatingsList.sort((a,b)=>{return b-a})
-    return repeatingsList
 }
