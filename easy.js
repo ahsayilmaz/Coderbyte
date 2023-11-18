@@ -137,4 +137,4 @@ import { GFC } from "./aesy/GCF.js";
 import { serialNumber } from "./aesy/serialNumber.js";
 //console.log(serialNumber("224.315.218"));
 import { stringPeriod } from "./aesy/stringPeriod.js";
-console.log(stringPeriod("abcababcababcab"));
+console.log(stringPeriod("abcabzabcabzabcabz"));
