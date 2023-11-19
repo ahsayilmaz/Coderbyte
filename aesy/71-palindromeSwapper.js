@@ -30,4 +30,5 @@ export const palindromeSwapper =(str)=>{
             }
         }
     }
+    return -1
 }
