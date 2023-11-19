@@ -139,4 +139,6 @@ import { serialNumber } from "./aesy/serialNumber.js";
 import { stringPeriod } from "./aesy/stringPeriod.js";
 //console.log(stringPeriod("abcabzabcabzabcabz"));
 import { palindromeSwapper } from "./aesy/palindromeSwapper.js";
-console.log(palindromeSwapper("rcacear"));
+//console.log(palindromeSwapper("rcacear"));
+import { removeBrackets } from "./aesy/removeBrackets.js";
+console.log(removeBrackets("[ a + b [8 (2 *{(b^2)( c- 9)})]]"));
