@@ -1,6 +1,6 @@
 export const removeBrackets = (str) => {
     str = str.replace(/[^\{\[\(\)\]\}]/g, "").split("");
-    const stack = [];
+    let stack = [];
 
     for (let char of str) {
         if (char === "[" || char === "(" || char === "{") {
