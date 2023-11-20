@@ -141,4 +141,6 @@ import { stringPeriod } from "./aesy/stringPeriod.js";
 import { palindromeSwapper } from "./aesy/palindromeSwapper.js";
 //console.log(palindromeSwapper("rcacear"));
 import { removeBrackets } from "./aesy/removeBrackets.js";
-console.log(removeBrackets("[ a + b [8 (2 *{(b^2)( c- 9)})]]"));
+//console.log(removeBrackets("[ a + b [8 (2 *{(b^2)( c- 9)})]]"));
+import { commandLine } from "./aesy/commandLine.js";
+console.log(commandLine("Samplenumber=3234 provider=Dr. M. Welby patient=John Smith priority=High"));
