@@ -143,4 +143,6 @@ import { palindromeSwapper } from "./aesy/palindromeSwapper.js";
 import { removeBrackets } from "./aesy/removeBrackets.js";
 //console.log(removeBrackets("[ a + b [8 (2 *{(b^2)( c- 9)})]]"));
 import { commandLine } from "./aesy/commandLine.js";
-console.log(commandLine("Samplenumber=3234 provider=Dr. M. Welby patient=John Smith priority=High  "));
+//console.log(commandLine("Samplenumber=3234 provider=Dr. M. Welby patient=John Smith priority=High  "));
+import { starRating } from "./aesy/starRating.js";
+console.log(starRating(2.46));
