@@ -1,7 +1,7 @@
 // Parses a command-line string and adjusts the lengths of tokens and values.
 export const commandLine = (str) => {
     // Splitting the input string based on '='
-    str = str.split("=")
+    str = str..trim()split("=")
     
     // Array to store token and value lengths
     let lengthsArray = []
