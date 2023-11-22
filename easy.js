@@ -145,4 +145,6 @@ import { removeBrackets } from "./aesy/removeBrackets.js";
 import { commandLine } from "./aesy/commandLine.js";
 //console.log(commandLine("Samplenumber=3234 provider=Dr. M. Welby patient=John Smith priority=High  "));
 import { starRating } from "./aesy/starRating.js";
-console.log(starRating(2.46));
+//console.log(starRating(2.46));
+import { slidingWindow } from "./aesy/slidingWindow.js";
+console.log(slidingWindow([1,3,-1,-3,5,3,6,7]));
