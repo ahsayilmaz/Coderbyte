@@ -147,4 +147,6 @@ import { commandLine } from "./aesy/commandLine.js";
 import { starRating } from "./aesy/starRating.js";
 //console.log(starRating(2.46));
 import { slidingWindow } from "./aesy/slidingWindow.js";
-console.log(slidingWindow([1,3,-1,-3,5,3,6,7]));
+//console.log(slidingWindow([1,3,-1,-3,5,3,6,7]));
+import { groupTotal } from "./aesy/groupTotal.js";
+console.log(groupTotal(["B:-1","A:1","B:3","A:5"]));
