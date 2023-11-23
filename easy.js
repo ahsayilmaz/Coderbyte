@@ -163,4 +163,6 @@ import { rectangleArea } from "./aesy/rectangleArea.js";
 import { equivelantKeyPresses } from "./aesy/equivalentKeyPresses.js";
 //console.log(equivelantKeyPresses(["a,b,c","a,f,g,b,c,c"]));
 import { constantCount } from "./aesy/constantCount.js";
-console.log(constantCount("telephone"));
+//console.log(constantCount("telephone"));
+import { happyNumbers } from "./aesy/happyNumbers.js";
+console.log(happyNumbers(23));
