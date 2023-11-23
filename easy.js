@@ -161,4 +161,6 @@ import { triangleRow } from "./aesy/triangleRow.js";
 import { rectangleArea } from "./aesy/rectangleArea.js";
 //console.log(rectangleArea(["(0,0)","(3,0)","(3,2)","(0,2)",]));
 import { equivelantKeyPresses } from "./aesy/equivalentKeyPresses.js";
-console.log(equivelantKeyPresses(["a,b,c","a,f,g,b,c,c"]));
+//console.log(equivelantKeyPresses(["a,b,c","a,f,g,b,c,c"]));
+import { constantCount } from "./aesy/constantCount.js";
+console.log(constantCount("telephone"));
