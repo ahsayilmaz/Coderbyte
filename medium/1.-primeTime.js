@@ -1,5 +1,21 @@
-export const primeTime = (num) => {
-    let isPrime = num === 2 || num === 3 ? true : false;
-    if((num%6==1||num%6==5)&&num%2!=0) isPrime=true
-    return isPrime;
+export const primeTime = (n) => {
+    let primes = new Array(n).fill(true);
+    primes[0] = primes[1] = false;
+
+    for (let i = 2; i <= Math.sqrt(n); i++) {
+        if (primes[i]) {
+            for (let j = i * i; j < n; j += i) {
+                primes[j] = false;
+            }
+        }
+    }
+
+    let count = 0;
+    for (let i = 2; i < n; i++) {
+        if (primes[i]) {
+            count++;
+        }
+    }
+
+    return count;
 }
