@@ -6,3 +6,5 @@ import { primeMover } from "./medium/primeMover.js";
 //console.log(primeMover(23));
 import { stringScramble } from "./medium/stringScramble.js";
 //console.log(stringScramble(["rkqodlw","world"]));
+import { caeserChiper } from "./medium/caeserChiper.js";
+//console.log(caeserChiper("ATTACKATONCE",4));
