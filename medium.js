@@ -8,3 +8,5 @@ import { stringScramble } from "./medium/stringScramble.js";
 //console.log(stringScramble(["rkqodlw","world"]));
 import { caeserChiper } from "./medium/caeserChiper.js";
 //console.log(caeserChiper("ATTACKATONCE",4));
+import { simpleMode } from "./medium/simpleMode.js";
+//console.log(simpleMode([5,5,10,6,5,10,10]));
