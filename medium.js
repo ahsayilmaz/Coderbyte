@@ -10,3 +10,5 @@ import { caeserChiper } from "./medium/caeserChiper.js";
 //console.log(caeserChiper("ATTACKATONCE",4));
 import { simpleMode } from "./medium/simpleMode.js";
 //console.log(simpleMode([5,5,10,6,5,10,10]));
+import { consecutive } from "./medium/consecutive.js";
+//console.log(consecutive([4,8,6,11]));
