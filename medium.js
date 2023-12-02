@@ -12,3 +12,5 @@ import { simpleMode } from "./medium/simpleMode.js";
 //console.log(simpleMode([5,5,10,6,5,10,10]));
 import { consecutive } from "./medium/consecutive.js";
 //console.log(consecutive([4,8,6,11]));
+import { formattedDivision } from "./medium/formattedDivision.js";
+//console.log(formattedDivision(123123456789,10000));
