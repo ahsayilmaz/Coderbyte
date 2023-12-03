@@ -14,3 +14,5 @@ import { consecutive } from "./medium/consecutive.js";
 //console.log(consecutive([4,8,6,11]));
 import { formattedDivision } from "./medium/formattedDivision.js";
 //console.log(formattedDivision(123123456789,10000));
+import { permutationStep } from "./medium/permutationStep.js";
+//console.log(permutationStep(1111121));
