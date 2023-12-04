@@ -16,3 +16,5 @@ import { formattedDivision } from "./medium/formattedDivision.js";
 //console.log(formattedDivision(123123456789,10000));
 import { permutationStep } from "./medium/permutationStep.js";
 //console.log(permutationStep(1111121));
+import { dashInsert2 } from "./medium/dashInsert2.js";
+//console.log(dashInsert2("4546793"));
