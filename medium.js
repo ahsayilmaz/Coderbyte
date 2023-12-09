@@ -20,3 +20,5 @@ import { dashInsert2 } from "./medium/dashInsert2.js";
 //console.log(dashInsert2("4546793"));
 import { tripleDouble } from "./medium/tripleDouble.js";
 //console.log(tripleDouble(4519999277,41177722899));
+import { stringReduction } from "./medium/stringReduction.js";
+//console.log(stringReduction("bcab"));
