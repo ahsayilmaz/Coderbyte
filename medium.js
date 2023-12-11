@@ -22,3 +22,5 @@ import { tripleDouble } from "./medium/tripleDouble.js";
 //console.log(tripleDouble(4519999277,41177722899));
 import { stringReduction } from "./medium/stringReduction.js";
 //console.log(stringReduction("bcab"));
+import { threeFive } from "./medium/threeFive.js";
+//console.log(threeFive(10));
