@@ -24,3 +24,5 @@ import { stringReduction } from "./medium/stringReduction.js";
 //console.log(stringReduction("bcab"));
 import { threeFive } from "./medium/threeFive.js";
 //console.log(threeFive(10));
+import { fibonacciChecker } from "./medium/fibonacciChecker.js";
+//console.log(fibonacciChecker(8944394323791464));
