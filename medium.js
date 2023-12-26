@@ -26,3 +26,5 @@ import { threeFive } from "./medium/threeFive.js";
 //console.log(threeFive(10));
 import { fibonacciChecker } from "./medium/fibonacciChecker.js";
 console.log(fibonacciChecker(8944394323791464));
+import { nthFibonacciNumber } from "./medium/nthFibonacciNumber.js";
+//console.log(nthFibonacciNumber(10));
