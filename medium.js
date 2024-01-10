@@ -29,7 +29,7 @@ import { fibonacciChecker } from "./medium/fibonacciChecker.js";
 import { nthFibonacciNumber } from "./medium/nthFibonacciNumber.js";
 //console.log(nthFibonacciNumber(10));
 import { multipleBrackets } from "./medium/multipleBrackets.js";
-console.log(multipleBrackets("((hello! [world]))"));
+//console.log(multipleBrackets("((hello! [world]))"));
 import { fibo } from "./medium/fibo.js";
 /*for (let i = 0; i < 9; i++) {
     console.log(fibo(i));
